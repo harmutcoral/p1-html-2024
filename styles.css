@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif;
+    color:rgb(12, 12, 66)
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/630/559/607/biology-molecule-close-up-abstract-wallpaper-4577550d4ff2189528f4cc41af096100.jpg');
+    background-size: cover;
+    z-index: -1;
+    transform: scaleX(-1);
+}
+.subtitle {
+    position: relative;
+    margin: 20px;
+    
+}
+
+.subtitle::before,
+.subtitle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top: 2px solid black; 
+}
+
+.subtitle::before {
+    top: -0.5em;
+
+}
+
+.subtitle::after {
+    bottom: -0.5em;
+}
+
+.paragraph {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.roche .paragraph,
+.grifols .paragraph,
+.university1 .paragraph,
+.university2  .paragraph  {
+    margin-top: 3px; 
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 200mm;
+    height: calc(200mm * 1.4);
+    max-width: 100%;
+    box-shadow: 1em 1em 5em rgba(11, 11, 3, 0.5);
+    margin: 3em auto;
+    border: 0.3em ridge rgb(12, 44, 66, 0.6);
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.header {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(99, 145, 186, 0.5);
+    background-size: contain;
+    background-position: center;
+    border: 2px;
+    color: rgb(18, 2, 2); 
+    padding: 10px;
+    max-width: 100%; 
+}
+
+.content {
+    flex: 2; 
+    padding: 1em;
+    margin-top: 2em;
+}
+
+
+.header h1 {
+    font-size: 2em;
+    margin: 20px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.header p {
+    font-size: 17px;
+    text-align: left;
+    margin: 20px;
+    margin-top: 2em;
+}
+
+.work-experience,
+.education {
+    display: flex
+}
+
+.roche,
+.grifols,
+.university1,
+.university2 {
+    flex: 1;
+
+}
+
+.skills-list {
+    display: flex;
+    list-style-type: none;
+    margin:20px;
+    margin-top: 2em
+}
+
+.skills-list li {
+    margin-right: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h3{
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+h4{
+    margin: 20px;
+    font-size: 15px;
+    display: inline-block; 
+    border-bottom: 2px dashed grey;
+    padding-bottom: 2px; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.dots li::before {
+    content: '\2022';
+    margin-right: 5px; 
+}
+
+
