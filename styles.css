@@ -5,7 +5,7 @@ body {
     color: rgb(12, 12, 66);
     width: 100%;
     height: 100%;
-    background-image: url('https://images8.alphacoders.com/130/1309053.jpg');
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0545aac2-256b-4c9e-907a-1b1c8ef246de/dgd9fqo-b9296bdd-7a8d-4fd1-9fd2-434b32fbacbf.png/v1/fill/w_1280,h_718,q_80,strp/fantasy_desktop_wallpaper_0695_by_grimwalds_ai_fantasy_dgd9fqo-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzE4IiwicGF0aCI6IlwvZlwvMDU0NWFhYzItMjU2Yi00YzllLTkwN2EtMWIxYzhlZjI0NmRlXC9kZ2Q5ZnFvLWI5Mjk2YmRkLTdhOGQtNGZkMS05ZmQyLTQzNGIzMmZiYWNiZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.D7oDIRqVvbaTEZZ3QfkylhNcta7MWmUU_VPlsjKkUV8');
     background-size: cover;
 }
 
@@ -42,6 +42,7 @@ body {
 
 .info p {
     font-size: 17px;
+    text-align: justify;
 }
 
 .picture img {
@@ -56,6 +57,7 @@ h1{
 h2 {
     position: relative;
     font-family: Papyrus, sans-serif; 
+    margin-top: 2em;;
 }
 
 h2::before,
@@ -96,10 +98,6 @@ h2::after {
 .block-info {
     display: flex;
     justify-content: space-between;
-}
-
-.attributes-table th, .attributes-table td span {
-    margin: 0 20px; 
 }
 
 .attributes-table {
