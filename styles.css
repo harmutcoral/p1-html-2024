@@ -31,6 +31,7 @@ body {
 .character p {
     text-align: center;
     font-size: 18px;
+    font-style: italic;
 }
 
 .info {
@@ -68,4 +69,22 @@ h2::before {
 
 h2::after {
     bottom: -10px;
+}
+
+.attributes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black; 
+    background-color: rgb(238, 207, 150, 0.5); 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: black;
 }
