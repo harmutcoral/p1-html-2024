@@ -75,7 +75,7 @@ h2::after {
     bottom: -10px;
 }
 
-.attributes {
+.stats {
     display: flex;
     justify-content: space-between;
 }
@@ -96,4 +96,25 @@ h2::after {
 .block-info {
     display: flex;
     justify-content: space-between;
+}
+
+.attributes-table th, .attributes-table td span {
+    margin: 0 20px; 
+}
+
+.attributes-table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.attributes-table th {
+    background-color: transparent; 
+}
+
+.attributes-table tr:nth-child(even) {
+    background-color: rgba(253, 234, 193, 0.3);
+}
+
+.attributes-table tr:nth-child(odd) {
+    background-color: rgba(248, 244, 238, 0.5); 
 }
