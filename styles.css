@@ -1,5 +1,5 @@
 body {
-    font-family: perpetua;
+    font-family: Perpetua, sans-serif;
     margin: 0;
     padding: 0;
     color: rgb(12, 12, 66);
@@ -30,13 +30,18 @@ body {
 
 .character p {
     text-align: center;
-    font-size: 18px;
+    font-size: 19px;
     font-style: italic;
 }
 
 .info {
     flex: 1;
-    padding: 2em;
+    padding: 1em;
+    margin-right: 1em;
+}
+
+.info p {
+    font-size: 17px;
 }
 
 .picture img {
@@ -46,7 +51,6 @@ body {
 
 h1{
     font-family: Papyrus, sans-serif; 
-    
 }
 
 h2 {
@@ -87,4 +91,9 @@ h2::after {
     text-align: center;
     align-items: center;
     color: black;
+}
+
+.block-info {
+    display: flex;
+    justify-content: space-between;
 }
