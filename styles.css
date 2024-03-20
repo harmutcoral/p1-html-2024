@@ -1,5 +1,5 @@
 body {
-    font-family: Papyrus;
+    font-family: perpetua;
     margin: 0;
     padding: 0;
     color: rgb(12, 12, 66);
@@ -17,22 +17,55 @@ body {
     max-width: 100%;
     box-shadow: 1em 1em 5em rgba(11, 11, 3, 0.5);
     margin: 3em auto;
-    border: 0.3em ridge rgb(12, 44, 66, 0.6);
-    background-color: rgba(255, 255, 255, 0.95);
-
+    border: 0.3em ridge rgba(248, 235, 194);
+    background-color: rgba(255, 234, 203);
+    background-image: url('https://tierrasuratherzog.com/wp-content/uploads/2019/05/TS-Wedding-Paper-BG.jpg');
+    background-size: cover;
 }
 
 .character {
     flex: 1;
     padding: 2em;
+}
 
+.character p {
+    text-align: center;
+    font-size: 18px;
 }
 
 .info {
     flex: 1;
     padding: 2em;
-
 }
 
+.picture img {
+    width: 100%; 
+    height: auto;
+}
 
+h1{
+    font-family: Papyrus, sans-serif; 
+    
+}
 
+h2 {
+    position: relative;
+    font-family: Papyrus, sans-serif; 
+}
+
+h2::before,
+h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top: 2px solid black; 
+}
+
+h2::before {
+    top: -10px;
+}
+
+h2::after {
+    bottom: -10px;
+}
